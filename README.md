@@ -28,9 +28,8 @@ You will need to install the following libraries to run the Python code:
 If you do not have the hardware, you may run the test code.
 1. Comment out the dispData() call, and uncomment the testDispData() in “mainGUI.py”.<br />
 **From**<br />
-<img width="304" height="125" alt="image" src="https://github.com/user-attachments/assets/f47da486-397d-466f-9922-ed06ea08d7c4" />
-<br />
-  **to**<br />
+<img width="304" height="125" alt="image" src="https://github.com/user-attachments/assets/f47da486-397d-466f-9922-ed06ea08d7c4" /><br />
+**to**<br />
 <img width="310" height="123" alt="image" src="https://github.com/user-attachments/assets/ee73a8d6-5f5b-4d3e-a747-9d73d3612f39" />
 
 2. Change the value of the parameter manually from 0 to 11 to check the program for changing gas values. Run the program **mainGUI.py**; no need to run **gas_sensor.ino**.

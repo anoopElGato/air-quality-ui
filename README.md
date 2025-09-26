@@ -28,20 +28,20 @@ You will need to install the following libraries to run the Python code:
 If you do not have the hardware, you may run the test code.
 1. Comment out the dispData() call, and uncomment the testDispData() in “mainGUI.py”.<br />
 **From**<br />
-<img width="910" height="373" alt="image" src="https://github.com/user-attachments/assets/f47da486-397d-466f-9922-ed06ea08d7c4" />
+<img width="304" height="125" alt="image" src="https://github.com/user-attachments/assets/f47da486-397d-466f-9922-ed06ea08d7c4" />
 <br />
   **to**<br />
-<img width="929" height="369" alt="image" src="https://github.com/user-attachments/assets/ee73a8d6-5f5b-4d3e-a747-9d73d3612f39" />
+<img width="310" height="123" alt="image" src="https://github.com/user-attachments/assets/ee73a8d6-5f5b-4d3e-a747-9d73d3612f39" />
 
 2. Change the value of the parameter manually from 0 to 11 to check the program for changing gas values. Run the program **mainGUI.py**; no need to run **gas_sensor.ino**.
 
-<img width="1127" height="971" alt="image" src="https://github.com/user-attachments/assets/4755a8a0-294c-401c-bbb1-41c2f131c2c4" />
-<img width="1126" height="967" alt="image" src="https://github.com/user-attachments/assets/f7a33e11-da7a-41a3-a318-df4e1564121c" />
+<img width="376" height="324" alt="image" src="https://github.com/user-attachments/assets/4755a8a0-294c-401c-bbb1-41c2f131c2c4" />
+<img width="376" height="324" alt="image" src="https://github.com/user-attachments/assets/f7a33e11-da7a-41a3-a318-df4e1564121c" />
 
 *The colours are assigned based on the standards laid out by the [U.S. Environmental Protection Agency](https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf)*
 
 3. The  “?” button is displayed whenever the concentrations of the gas reach levels that are not healthy. Clicking on the button displays the possible sources, effects on health & precautionary measures.
 
-<img width="676" height="985" alt="image" src="https://github.com/user-attachments/assets/a881e8f4-c854-45da-ad72-f88fc6f0bfd0" />
-<img width="674" height="555" alt="image" src="https://github.com/user-attachments/assets/f1e51b53-12bc-4fe5-964e-fd0fd0ac8679" />
+<img width="338" height="492" alt="image" src="https://github.com/user-attachments/assets/a881e8f4-c854-45da-ad72-f88fc6f0bfd0" />
+<img width="337" height="278" alt="image" src="https://github.com/user-attachments/assets/f1e51b53-12bc-4fe5-964e-fd0fd0ac8679" />
 

@@ -17,11 +17,11 @@ You will need to install the following libraries to run the Python code:
 ## How to use it?
 ### With Hardware
 1. Upload the Arduino code “gas_sensor.ino” with the ESP32-WROOM-DA Module as the selected board.
-<img width="1193" height="880" alt="image" src="https://github.com/user-attachments/assets/2aaeaa32-fb27-4085-86f8-ae35aa6f24c6" />
+<img width="398" height="294" alt="image" src="https://github.com/user-attachments/assets/2aaeaa32-fb27-4085-86f8-ae35aa6f24c6" />
 
 2. Once uploaded successfully, close the Arduino IDE. The same device & port can not be accessed by the different IDEs at the same time.
 3. Run the Python program “mainGUI.py”. Make sure you have entered the correct port name and baud rate.
-<img width="1194" height="650" alt="image" src="https://github.com/user-attachments/assets/1820fbc5-5d4f-42e1-a316-b3975c7cb7d7" />
+<img width="398" height="216" alt="image" src="https://github.com/user-attachments/assets/1820fbc5-5d4f-42e1-a316-b3975c7cb7d7" />
 
 
 ### Without Hardware (on stored data)

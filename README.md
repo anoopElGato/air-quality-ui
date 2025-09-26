@@ -17,32 +17,31 @@ You will need to install the following libraries to run the Python code:
 ## How to use it?
 ### With Hardware
 1. Upload the Arduino code “gas_sensor.ino” with the ESP32-WROOM-DA Module as the selected board.
-![image](https://github.com/user-attachments/assets/61520c21-af23-4620-a6cf-d4818c4169c3)
+<img width="1193" height="880" alt="image" src="https://github.com/user-attachments/assets/2aaeaa32-fb27-4085-86f8-ae35aa6f24c6" />
 
 2. Once uploaded successfully, close the Arduino IDE. The same device & port can not be accessed by the different IDEs at the same time.
 3. Run the Python program “mainGUI.py”. Make sure you have entered the correct port name and baud rate.
-![image](https://github.com/user-attachments/assets/98ea3581-ebe4-47a1-b43e-3108527bb3c4)
+<img width="1194" height="650" alt="image" src="https://github.com/user-attachments/assets/1820fbc5-5d4f-42e1-a316-b3975c7cb7d7" />
+
 
 ### Without Hardware (on stored data)
 If you do not have the hardware, you may run the test code.
 1. Comment out the dispData() call, and uncomment the testDispData() in “mainGUI.py”.<br />
 **From**<br />
-![image](https://github.com/user-attachments/assets/a44941b5-e830-452d-a7df-3037c4334ee1)<br />
+<img width="910" height="373" alt="image" src="https://github.com/user-attachments/assets/f47da486-397d-466f-9922-ed06ea08d7c4" />
+<br />
   **to**<br />
-![image](https://github.com/user-attachments/assets/8baee933-9be7-4ff5-a66e-15e414083cde)
-
+<img width="929" height="369" alt="image" src="https://github.com/user-attachments/assets/ee73a8d6-5f5b-4d3e-a747-9d73d3612f39" />
 
 2. Change the value of the parameter manually from 0 to 11 to check the program for changing gas values. Run the program **mainGUI.py**; no need to run **gas_sensor.ino**.
 
-![image](https://github.com/user-attachments/assets/17d21bac-b3fc-464e-a4d0-7f31a40e9c71)
-![image](https://github.com/user-attachments/assets/ae6bb6cf-6735-4df1-8c7e-69747b34edfe)
-    
+<img width="1127" height="971" alt="image" src="https://github.com/user-attachments/assets/4755a8a0-294c-401c-bbb1-41c2f131c2c4" />
+<img width="1126" height="967" alt="image" src="https://github.com/user-attachments/assets/f7a33e11-da7a-41a3-a318-df4e1564121c" />
+
 *The colours are assigned based on the standards laid out by the [U.S. Environmental Protection Agency](https://www.airnow.gov/sites/default/files/2020-05/aqi-technical-assistance-document-sept2018.pdf)*
 
 3. The  “?” button is displayed whenever the concentrations of the gas reach levels that are not healthy. Clicking on the button displays the possible sources, effects on health & precautionary measures.
 
-![image](https://github.com/user-attachments/assets/bd5e71fc-a8a0-4608-8087-b0a8cd97d5dd)
-![image](https://github.com/user-attachments/assets/37571fd1-85d6-47c7-ac33-81e5883f92d9)
-
-
+<img width="676" height="985" alt="image" src="https://github.com/user-attachments/assets/a881e8f4-c854-45da-ad72-f88fc6f0bfd0" />
+<img width="674" height="555" alt="image" src="https://github.com/user-attachments/assets/f1e51b53-12bc-4fe5-964e-fd0fd0ac8679" />
 
